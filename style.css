@@ -19,20 +19,21 @@ html {
   margin-bottom: 1rem;
 }
 
-.tags {
+.tag-container {
+  display: flex;
   margin-bottom: 1rem;
   font-size: 0.875rem;
+}
+
+
+.tag {
+  color: #7C19EE;
+  background-color: #F2EAFD;
+  margin: 0;
   border: 0.375rem solid #F2EAFD;
   border-left-width: 1rem;
   border-right-width: 1rem;
   border-radius: 0.375rem;
-}
-
-
-.tags p {
-  color: #7C19EE;
-  background-color: #F2EAFD;
-  margin: 0;
 }
 
 h1.title {
