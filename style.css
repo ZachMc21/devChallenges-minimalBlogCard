@@ -1,0 +1,16 @@
+/* Mobile first */
+
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: lightgreen;
+  }
+}
