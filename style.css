@@ -2,22 +2,30 @@ html {
   font-family: "Sora", Verdana, sans-serif;
   font-size: 16px;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .box-shadow {
   box-shadow: 1rem 1rem 2.5rem 0px rgba(85, 85, 85, 0.08);
 }
 
-/* Mobile first */
 .article-container {
-  border: 1rem solid white;
-  border-radius: 1rem 1rem 1.25rem 1rem;
-  width: 21rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 23rem;
   margin: 10.25rem auto 0 auto;
+}
+
+.upper-section {
+  padding: 0 1rem 0 1rem;
+  border-bottom: 0.125rem solid #E5EAF0;
 }
 
 .article-cover {
   margin-bottom: 1rem;
+  width: 21rem;
+  height: auto;
 }
 
 .tag-container {
@@ -50,7 +58,15 @@ p.description {
   color: #394150;
 }
 
+div.lower-section {
+  padding: 0 1.25rem;
+  margin: 0;
+  margin-top: 1.25rem;
+}
+
 p.author {
   font-size: 0.75rem;
   color: #394150;
+  margin: 0;
+  margin-top: 1rem;
 }
