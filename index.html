@@ -3,17 +3,26 @@
 <meta charset="UTF-8">
 <title>Minimal Blog Card</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta
+  name="description"
+  content="A simple blog article card with a cover image, title, tag, and author. Article by Annie Sprat. "
+>
+
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="preconnect" href="https://fonts.googleapis.com"></noscript>
+<link rel="preconnect" href="https://fonts.gstatic.com" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Sora&display=swap"></noscript>
 
 <body>
 
-
+<main>
 <div class="article-container box-shadow">
   <div class="upper-section">
-    <img class="article-cover" src="images/cactus.jpg" alt="A potted cactus against a pink background.">
+    <img class="article-cover" src="images/cactus.jpg" alt="A potted cactus against a pink background." width="336" height="152">
 
     <div class="tag-container">
       <p class="tag">Design</p>
@@ -30,7 +39,7 @@
     <p class="author">Annie Spratt</p>
   </div>
 </div>
-
+</main>
 
 </body>
 </html> 

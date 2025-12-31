@@ -2,8 +2,13 @@ html {
   font-family: "Sora", Verdana, sans-serif;
   font-size: 16px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
+  object-position: top center;
 }
 
 .box-shadow {
